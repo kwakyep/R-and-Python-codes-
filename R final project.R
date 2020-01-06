@@ -1,3 +1,5 @@
+#Written by Peter Kwakye & Yan Chen December 10 2019
+#Analysis of polarizability values of molecules and their representation in terms of their molecular desscriptors 
 features <-read.csv("~/Downloads/R final project/2019-03-28 CE451-551 L18 v5.0 tutorial/data/molorg_features.csv")
 pol<-read.csv("~/Downloads/R final project/2019-03-28 CE451-551 L18 v5.0 tutorial/data/molorg_pol.csv", sep="")
 features $polarizability<-pol$pol_Bohr3
